@@ -61,7 +61,7 @@ public class form1 {
             public void actionPerformed(ActionEvent e) {
                 double dMayorR=Double.parseDouble(dMayor.getText());
                 double dMenorR=Double.parseDouble(dMenor.getText());
-                resultado.setText("Mayor: " + (dMayorR*dMenorR)/2);
+                resultado.setText("Rombo: " + (dMayorR*dMenorR)/2);
             }
         });
     }
